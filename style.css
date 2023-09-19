@@ -1,4 +1,16 @@
-h1 {
-    font-size: 2em;
-     
+.gallery{
+   margin-left: 30px;
+   
+}
+.outline{
+    border: 1px solid black;
+    width: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.captions{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 2px;
 }
