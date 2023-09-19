@@ -12,18 +12,37 @@
         <a href="index.html">Home</a>
         
     </nav>
+    
     <!--List of cat breeds-->
     <h1 style="padding-left: 20px">Cat Breeds</h1> 
         <ul>
-            <li>British Shorthair</li>
+            <li>British Short-hair</li>
             <li>Siamese</li>
             <li>Maine Coon</li>
             <li>Persian</li>
             <li>Ragdoll</li>
             <li>Scottish Fold</li>
             <li>Sphynx</li>
-            <li>Domesticated Shorthair</li>
+            <li>Domesticated Short-hair</li>
         </ul>
+    <!--Table-->
+    <style>
+    table, th, td {
+        border:1px solid black;
+    }
+    </style> 
+    <table style="margin-bottom:20px">
+        <tr>
+          <td>Maine Coon</td>
+          <td>Persian</td>
+          <td>Sphyx</td>
+        </tr>
+        <tr>
+          <td>Long-haired</td>
+          <td>Long-haired</td>
+          <td>No Hair</td>
+        </tr>
+      </table>
     <!--Gallery of cat breeds with captions-->
     <div class="gallery">
         <div class="outline">
@@ -39,6 +58,16 @@
             <div class="captions">Picture of a Sphyx</div>
         </div>
     </div>
+
+    <label id="text">
+        How about Domesticated-Shorthair?
+    </label>
+    <br>
+
+    <button onclick="changeText()">
+        What type of hair do they have?
+    </button>
+    <script src="script.js"></script>
         
 </body>
 </html>
